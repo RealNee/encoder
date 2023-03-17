@@ -19,6 +19,7 @@
 * 注册回调函数
 ```c
 ec11_button_register_cb(ec11_handle, EC11_BNT_PRESS_DOWN, ec11_button_cb);
+ec11_button_register_cb(ec11_handle, EC11_BNT_PRESS_UP, ec11_button_cb);
 ```
 
 * 回调函数
